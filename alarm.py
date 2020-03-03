@@ -4,7 +4,7 @@ import schedule
 import time
 
 def job():
-	location = 'home/pi/Documents/alarm/alarm.wav'
+	location = 'alarm.mp3'
 	#ensure file name is the same
 	pygame.init()
 	pygame.mixer.init()
