@@ -17,8 +17,8 @@ schedule.every().day.at("15:00").do(job)
 #schedule.every(1).minutes.do(job)
 #for quick schedule testing
 
-	while True:
-		schedule.run_pending()
-		time.sleep(1)
-		#job()
-		#for quick sound testing
+while True:
+	schedule.run_pending()
+	time.sleep(1)
+	#job()
+	#for quick sound testing
